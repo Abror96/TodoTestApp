@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#FFBB86FC</color>
+    <color name="color_primary_variant">#000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="background">#121212</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_background">#1f1f1f</color>
+    <color name="todo_item_background">#1f1f1f</color>
+    <color name="todo_item_border_color">#FFBB86FC</color>
+    <color name="colorAccent">#FFBB86FC</color>
+    <color name="unfocused_stroke_color">#E0E0E0</color>
+</resources>

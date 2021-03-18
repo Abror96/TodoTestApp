@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="item_mt_10">10dp</dimen>
+    <dimen name="item_mb_10">10dp</dimen>
+    <dimen name="item_ms_16">16dp</dimen>
+    <dimen name="item_title_size_17">17sp</dimen>
+    <dimen name="item_description_size_13">13sp</dimen>
+    <dimen name="item_title_descr_6">6dp</dimen>
+    <dimen name="elevation">6dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="view_ms_16">16dp</dimen>
+    <dimen name="view_me_16">16dp</dimen>
+    <dimen name="item_mt_8">8dp</dimen>
+    <dimen name="item_mb_8">8dp</dimen>
+    <dimen name="recycler_pt_8">8dp</dimen>
+    <dimen name="recycler_pb_8">8dp</dimen>
+    <dimen name="view_mb">16dp</dimen>
+    <dimen name="view_mt_16">16dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="button_pt_11">11dp</dimen>
+    <dimen name="button_pb_11">11dp</dimen>
+</resources>

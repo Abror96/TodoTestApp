@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/view_ms_16"
+    android:layout_marginTop="@dimen/item_mt_8"
+    android:layout_marginEnd="@dimen/view_me_16"
+    android:layout_marginBottom="@dimen/item_mb_8"
+    android:background="@color/todo_item_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="@dimen/elevation"
+    app:cardCornerRadius="@dimen/corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/border"
+            android:layout_width="6dp"
+            android:layout_height="0dp"
+            android:background="@color/todo_item_border_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_ms_16"
+            android:layout_marginTop="@dimen/item_mt_10"
+            android:layout_marginEnd="@dimen/view_me_16"
+            android:textSize="@dimen/item_title_size_17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/border"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Первая напоминалка" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/item_title_descr_6"
+            android:layout_marginBottom="@dimen/item_mb_10"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textSize="@dimen/item_description_size_13"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/title"
+            app:layout_constraintStart_toStartOf="@+id/title"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            tools:text="Тестовое описание напоминалки " />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

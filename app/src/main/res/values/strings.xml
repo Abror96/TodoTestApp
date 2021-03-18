@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="todo_list">Список дел</string>
+    <string name="adding_todo">Добавление напоминания</string>
+    <string name="description">Описание</string>
+    <string name="title">Заголовок</string>
+    <string name="save">Сохранить</string>
+    <string name="all_fields_are_required_to_fill">Все поля обязательны к заполнению</string>
+    <string name="successfully_added">Напоминание успешно добавлено</string>
+    <string name="successfully_deleted">Напоминание успешно удалено</string>
+    <string name="successfully_edited">Напоминание успешно изменено</string>
+    <string name="error_has_occured">Произошла ошибка. Попытайтесь снова</string>
+    <string name="add">Добавить</string>
+</resources>
